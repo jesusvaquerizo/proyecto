@@ -1,0 +1,57 @@
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  background-color: #ffde59;
+  background-image: url("images/welcome.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h3 {
+
+  color: #ff5252;
+
+
+}
+/* Style tab links */
+.tablink {
+  background-color: black;
+  font-family: 'Fjalla One', sans-serif;
+  color: white;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: black;
+  color: #ff5252;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  display: none;
+  padding: 100px 20px;
+  height: 50%;
+}
+
+#Juego {
+  background-color: black;
+}
+#Descripcion {
+  background-color: black;
+}
+#Autores {
+  background-color: black;
+}
+#Referencias {
+  background-color: black;
+}
